@@ -1,0 +1,26 @@
+Special Files-------------------
+
+page.tsx
+layout.tsx
+not-found.tsx
+template.tsx
+loading.tsx
+error.tsx
+default.tsx
+
+Error Handing-------------------------
+
+-Error.tsx file handles error for a individual segment(component) & its child segments(components)
+-for handling errors in layout.tsx, put error.tsx in parent folder of the folder which contains layout.tsx 
+
+Parallel routes-----------------------
+
+-These routes defined using feature known as slots
+-to define slots, we use '@folder' naming convention
+-each slot is passed as a prop to its corresponding 'layout.tsx 
+
+Intercepted routes-------------------------
+
+- (.) to match segments on same level
+- (..) to match segments one level above
+- (...) to match segments from the root app directory
